@@ -1,0 +1,17 @@
+# Editor / OS junk
+*~
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+
+# Local scratch
+*.local.xml
+*.bak
+*.tmp
+
+# Python (if helpers are run from this tree)
+__pycache__/
+*.pyc
+*.pyo
