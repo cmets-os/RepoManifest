@@ -4,8 +4,21 @@
   <link href="https://os.cmets.ai/releases#changelog"/>
   <link rel="self" href="https://os.cmets.ai/releases.atom"/>
   <title>cmets-os changelog</title>
-  <updated>2026-07-26T07:23:24Z</updated>
+  <updated>2026-07-29T14:43:20Z</updated>
   <author><name>cmets</name></author>
+  <entry>
+    <id>https://os.cmets.ai/releases#cmets-2026072900</id>
+    <link href="https://os.cmets.ai/releases#cmets-2026072900"/>
+    <title>2026072900</title>
+    <updated>2026-07-29T14:43:20Z</updated>
+    <published>2026-07-29T00:00:00Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h2>cmets</h2>
+        <p><em>No CHANGELOG.d notes for this version.</em></p>
+      </div>
+    </content>
+  </entry>
   <entry>
     <id>https://os.cmets.ai/releases#cmets-2026072600</id>
     <link href="https://os.cmets.ai/releases#cmets-2026072600"/>
