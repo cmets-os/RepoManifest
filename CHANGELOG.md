@@ -13,6 +13,16 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026073003
+
+- **tag:** `cmets-2026073003`
+- **kind:** `local`
+- **upstream_base:** `2026072900`
+
+### cmets
+
+_No CHANGELOG.d notes for this version._
+
 ## 2026073002
 
 - **tag:** `cmets-2026073002`
