@@ -13,6 +13,20 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026080500
+
+- **tag:** `cmets-2026080500`
+- **kind:** `upstream`
+- **upstream_tag:** `2026080500`
+
+### Upstream (GrapheneOS 2026080500)
+
+_See GrapheneOS release notes for `2026080500` (embedded in `releases.atom`)._
+
+### cmets
+
+- Dialer: ship privapp allowlist on system_ext with the app (fixes boot FATAL after moving Dialer off product for platform APIs)
+
 ## 2026073003
 
 - **tag:** `cmets-2026073003`
