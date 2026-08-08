@@ -13,6 +13,18 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026080800
+
+- **tag:** `cmets-2026080800`
+- **kind:** `local`
+- **upstream_base:** `2026080500`
+
+### cmets
+
+- Hide Users: Dialer switcher secret code opens the user switcher via a narrow system API (no CREATE_USERS); QS/lock-screen switcher hides when only the current user is visible while Hide Users is armed
+- Shared encrypted storage: bind Shared under each profile’s media tree so Files can write; remount after volume ready / fuse-bpf; clarify per-profile Settings copy
+- SoftAP: feed SoftApCapability/regdb channels into hostapd AllowedAcsChannels; notify when dual/5/6 degrades to 2.4 GHz only; Settings keeps single 5/6 speed choices alongside dual-band
+
 ## 2026080500
 
 - **tag:** `cmets-2026080500`
