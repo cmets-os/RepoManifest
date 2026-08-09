@@ -13,6 +13,17 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026080900
+
+- **tag:** `cmets-2026080900`
+- **kind:** `local`
+- **upstream_base:** `2026080500`
+
+### cmets
+
+- Hide Users: Dialer secret switcher lists snapshot-hidden users for that session without exposing them on the status bar chip; session clears when the switcher dialog is dismissed
+- SoftAP: for empty HAL SAP 5 GHz (e.g. RU), use non-DFS ACS channels and pin a safe 5 GHz channel on dual/high-band start; notify when the high-band instance fails without silent 2.4-only operation
+
 ## 2026080800
 
 - **tag:** `cmets-2026080800`

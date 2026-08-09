@@ -4,8 +4,24 @@
   <link href="https://os.cmets.ai/releases#changelog"/>
   <link rel="self" href="https://os.cmets.ai/releases.atom"/>
   <title>cmets-os changelog</title>
-  <updated>2026-08-08T09:40:00Z</updated>
+  <updated>2026-08-09T20:02:53Z</updated>
   <author><name>cmets</name></author>
+  <entry>
+    <id>https://os.cmets.ai/releases#cmets-2026080900</id>
+    <link href="https://os.cmets.ai/releases#cmets-2026080900"/>
+    <title>2026080900</title>
+    <updated>2026-08-09T20:02:53Z</updated>
+    <published>2026-08-09T00:00:00Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h2>cmets</h2>
+        <ul>
+          <li>Hide Users: Dialer secret switcher lists snapshot-hidden users for that session without exposing them on the status bar chip; session clears when the switcher dialog is dismissed</li>
+          <li>SoftAP: for empty HAL SAP 5 GHz (e.g. RU), use non-DFS ACS channels and pin a safe 5 GHz channel on dual/high-band start; notify when the high-band instance fails without silent 2.4-only operation</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <id>https://os.cmets.ai/releases#cmets-2026080800</id>
     <link href="https://os.cmets.ai/releases#cmets-2026080800"/>
