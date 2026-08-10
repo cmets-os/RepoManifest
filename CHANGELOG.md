@@ -13,6 +13,18 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026081000
+
+- **tag:** `cmets-2026081000`
+- **kind:** `local`
+- **upstream_base:** `2026080500`
+
+### cmets
+
+- Screenshots: choose Default (`Pictures/Screenshots`) or Shared folder separately for the main user and for Private Space (Shared only when that space has Shared storage enabled)
+- Private Space: pin apps to the home screen; when locked (not hidden) show grey badged icons and unlock on tap; when hide-when-locked is on, omit home icons and search hits without dropping saved positions
+- Overview: allow Screenshot from each app’s menu when two apps are in a split / app pair
+
 ## 2026080900
 
 - **tag:** `cmets-2026080900`

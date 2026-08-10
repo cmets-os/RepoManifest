@@ -4,8 +4,25 @@
   <link href="https://os.cmets.ai/releases#changelog"/>
   <link rel="self" href="https://os.cmets.ai/releases.atom"/>
   <title>cmets-os changelog</title>
-  <updated>2026-08-09T20:02:53Z</updated>
+  <updated>2026-08-10T19:39:37Z</updated>
   <author><name>cmets</name></author>
+  <entry>
+    <id>https://os.cmets.ai/releases#cmets-2026081000</id>
+    <link href="https://os.cmets.ai/releases#cmets-2026081000"/>
+    <title>2026081000</title>
+    <updated>2026-08-10T19:39:37Z</updated>
+    <published>2026-08-10T00:00:00Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h2>cmets</h2>
+        <ul>
+          <li>Screenshots: choose Default (`Pictures/Screenshots`) or Shared folder separately for the main user and for Private Space (Shared only when that space has Shared storage enabled)</li>
+          <li>Private Space: pin apps to the home screen; when locked (not hidden) show grey badged icons and unlock on tap; when hide-when-locked is on, omit home icons and search hits without dropping saved positions</li>
+          <li>Overview: allow Screenshot from each app’s menu when two apps are in a split / app pair</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <id>https://os.cmets.ai/releases#cmets-2026080900</id>
     <link href="https://os.cmets.ai/releases#cmets-2026080900"/>
