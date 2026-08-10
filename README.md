@@ -10,24 +10,27 @@ This repository is the `repo` manifest overlay: a vendored GrapheneOS snapshot p
 
 ## Why it exists
 
-- Close a Private Space search leak when lock / “hide when locked” already exist.
+- Close a Private Space search leak when lock / “hide when locked” already exist, and keep home / search behavior consistent for locked vs hidden.
+- Let Private Space apps live on the home screen like ordinary apps, with grey “ghost” icons when locked and full omit when hide-when-locked is on (saved positions kept).
 - Offer practical UI hiding of secondary users against casual inspection or coercion—not forensic deniability.
 - Provide an opt-in Shared encrypted folder so hard profile isolation does not push people into unsafe transfer workarounds.
 - Allow per-app Play Integrity / region spoof for selected apps only (accepted risk; not “certify the whole OS”).
 - Wipe userdata on **new** ADB host authorization, alongside GrapheneOS Duress (no credible silent ADB pairing story).
 - Restore SoftAP 5/6 GHz channel lists from wireless-regdb for the device’s real country code—without spoofing the country.
+- In Overview split / app pairs, screenshot **one** side from that app’s menu.
+- Choose where screenshots are saved—Default or Shared—separately for the main user and Private Space.
 
 ## How it differs from GrapheneOS / AOSP
 
 For each item: upstream position, our stance, what we ship.
 
-### 1. Private Space search “ghosts”
+### 1. Private Space search + home icons (unified lock/hide UX)
 
-**Upstream.** AOSP Private Space and Android Help expect locked private apps to stay off launcher search / OS surfaces; launchers must honor lock and hide-when-locked. Stock Pixel Launcher largely does; AOSP Launcher3 has leaked quiet / hidden private apps in All Apps search (also reported on other AOSP-based ROMs).
+**Upstream.** AOSP Private Space keeps private apps off the home screen (`FLAG_NOT_PINNABLE`) and expects launchers to honor lock / hide-when-locked on OS surfaces. Stock Pixel Launcher largely does; AOSP Launcher3 has leaked quiet / hidden private apps in All Apps search and does not support pinning private apps to the workspace.
 
-**Our stance.** With hide-when-locked already a product feature, search results that still show badged private apps are a bug / leak, not intended behavior.
+**Our stance.** Hide-when-locked must not leak app presence (search or home). Locked-but-visible should still show grey badged “ghosts” so the user can unlock from the same place—same rules on the home screen and in search. Pinning private apps to the home screen is useful ops UX, not a security regression if hide-when-locked still omits them entirely.
 
-**What we ship.** Launcher3 filters private quiet / hidden apps out of All Apps search so presence of those apps is not disclosed that way.
+**What we ship.** Pin Private Space apps to workspace / hotseat / folders. One 3-state model for home **and** All Apps search: unlocked = show + launch; locked not hidden = grey badged ghost + unlock-then-launch; locked + hide-when-locked = omit (Favorites positions kept; no presence leak). Search omit is **hidden only** so locked-visible ghosts match home.
 
 ### 2. Hide Users
 
@@ -68,6 +71,22 @@ For each item: upstream position, our stance, what we ship.
 **Our stance.** Missing SAP channels look like vendor/regdb gaps, not a reason to fake the country. Filling lists from Linux wireless-regdb for the **same** ISO stays within local rules.
 
 **What we ship.** When the HAL SAP list is empty for 5/6 GHz but a real country code is known, SoftAP channel lists are filled from wireless-regdb for that ISO—**without** forcing or spoofing country code.
+
+### 7. Split / app-pair per-app Screenshot
+
+**Upstream.** Overview offers Screenshot on a single-task card’s menu. For a split / app pair (`GroupedTaskView`), each side still has a chip menu, but Screenshot is filtered out (`showForGroupedTask` defaults to false).
+
+**Our stance.** Side-by-side work (e.g. chat + another app on a fold) needs capturing one half without collapsing the pair or switching apps.
+
+**What we ship.** Screenshot on each chip’s menu; that task’s Overview thumbnail is saved into that task’s user MediaStore (including Private Space halves of a mixed pair).
+
+### 8. Screenshot save location
+
+**Upstream.** Screenshots go to `Pictures/Screenshots` for the capture owner user. No phone Settings choice of Default vs Shared; Shared encrypted storage is a cmets addition, not an AOSP/GrapheneOS screenshot destination.
+
+**Our stance.** Ops users who rely on Shared for cross-profile handoff should be able to land screenshots there without a manual move—**separately** for the main user and for Private Space.
+
+**What we ship.** Settings: Default vs Shared per profile; SystemUI exports to MediaStore `Pictures/Screenshots` or `Shared/Screenshots` for the screenshot’s `userHandle`, with fallback to Default if Shared is off, locked, or the insert fails.
 
 ### What we do not claim
 
