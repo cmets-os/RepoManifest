@@ -13,6 +13,18 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026081600
+
+- **tag:** `cmets-2026081600`
+- **kind:** `local`
+- **upstream_base:** `2026081300`
+
+### cmets
+
+- Overview: show Screenshot in a split / app pair’s per-app menu even when that half is still the live tile
+- Hotspot speed: 2.4 / 5 / 6 stay selectable; dual 2.4+5 and 2.4+6 only when the stored config is actually bridged
+- SoftAP: pin 5 GHz on `BAND_5GHZ` (not 2.4+5) so hostapd start cannot crash `system_server` with `Invalid channel(36) & band (3)`; leave 6 GHz configs unpinned
+
 ## 2026081500
 
 - **tag:** `cmets-2026081500`

@@ -4,8 +4,25 @@
   <link href="https://os.cmets.ai/releases#changelog"/>
   <link rel="self" href="https://os.cmets.ai/releases.atom"/>
   <title>cmets-os changelog</title>
-  <updated>2026-08-15T17:04:23Z</updated>
+  <updated>2026-08-16T19:26:21Z</updated>
   <author><name>cmets</name></author>
+  <entry>
+    <id>https://os.cmets.ai/releases#cmets-2026081600</id>
+    <link href="https://os.cmets.ai/releases#cmets-2026081600"/>
+    <title>2026081600</title>
+    <updated>2026-08-16T19:26:21Z</updated>
+    <published>2026-08-16T00:00:00Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h2>cmets</h2>
+        <ul>
+          <li>Overview: show Screenshot in a split / app pair’s per-app menu even when that half is still the live tile</li>
+          <li>Hotspot speed: 2.4 / 5 / 6 stay selectable; dual 2.4+5 and 2.4+6 only when the stored config is actually bridged</li>
+          <li>SoftAP: pin 5 GHz on `BAND_5GHZ` (not 2.4+5) so hostapd start cannot crash `system_server` with `Invalid channel(36) &amp; band (3)`; leave 6 GHz configs unpinned</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <id>https://os.cmets.ai/releases#cmets-2026081500</id>
     <link href="https://os.cmets.ai/releases#cmets-2026081500"/>
