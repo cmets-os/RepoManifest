@@ -13,6 +13,17 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026081700
+
+- **tag:** `cmets-2026081700`
+- **kind:** `local`
+- **upstream_base:** `2026081300`
+
+### cmets
+
+- Hide Users: Storage no longer lists hidden users; their space is counted as Temporary files
+- Hide Users: Battery usage folds hidden-user drain into System apps and Others
+
 ## 2026081600
 
 - **tag:** `cmets-2026081600`

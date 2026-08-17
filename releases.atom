@@ -4,8 +4,24 @@
   <link href="https://os.cmets.ai/releases#changelog"/>
   <link rel="self" href="https://os.cmets.ai/releases.atom"/>
   <title>cmets-os changelog</title>
-  <updated>2026-08-16T19:26:21Z</updated>
+  <updated>2026-08-17T09:10:24Z</updated>
   <author><name>cmets</name></author>
+  <entry>
+    <id>https://os.cmets.ai/releases#cmets-2026081700</id>
+    <link href="https://os.cmets.ai/releases#cmets-2026081700"/>
+    <title>2026081700</title>
+    <updated>2026-08-17T09:10:24Z</updated>
+    <published>2026-08-17T00:00:00Z</published>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <h2>cmets</h2>
+        <ul>
+          <li>Hide Users: Storage no longer lists hidden users; their space is counted as Temporary files</li>
+          <li>Hide Users: Battery usage folds hidden-user drain into System apps and Others</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <id>https://os.cmets.ai/releases#cmets-2026081600</id>
     <link href="https://os.cmets.ai/releases#cmets-2026081600"/>
