@@ -5,23 +5,23 @@
   <include name="grapheneos.xml"/>
   <remote name="cmets" fetch="https://github.com/cmets-os/"/>
   <remove-project name="platform_frameworks_base"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <remove-project name="platform_packages_apps_Dialer"/>
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-fs"/>
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-fs"/>
   <remove-project name="platform_packages_apps_GmsCompat"/>
-  <project name="platform_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-fs"/>
+  <project name="platform_packages_apps_GmsCompat" path="packages/apps/GmsCompat" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-fs"/>
   <remove-project name="platform_packages_apps_Launcher3"/>
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <remove-project name="platform_packages_apps_Settings"/>
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <remove-project name="platform_packages_apps_Updater"/>
-  <project name="platform_packages_apps_Updater" path="packages/apps/Updater" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700"/>
+  <project name="platform_packages_apps_Updater" path="packages/apps/Updater" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900"/>
   <remove-project name="platform_packages_modules_Wifi"/>
-  <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <remove-project name="platform/system/security"/>
-  <project name="platform_system_security" path="system/security" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk"/>
+  <project name="platform_system_security" path="system/security" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk"/>
   <remove-project name="platform_system_sepolicy"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk"/>
   <remove-project name="platform_system_vold"/>
-  <project name="platform_system_vold" path="system/vold" remote="cmets" revision="refs/tags/cmets-2026081700" upstream="refs/tags/cmets-2026081700" dest-branch="refs/tags/cmets-2026081700" groups="pdk"/>
+  <project name="platform_system_vold" path="system/vold" remote="cmets" revision="refs/tags/cmets-2026091900" upstream="refs/tags/cmets-2026091900" dest-branch="refs/tags/cmets-2026091900" groups="pdk"/>
 </manifest>

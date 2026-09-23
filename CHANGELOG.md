@@ -13,6 +13,56 @@ Do not hand-edit; regenerate with `forks-release-manifest.sh`.
 
 cmets-specific notes appear under the “cmets” heading in later entries. Upstream GrapheneOS notes for each synced release are embedded under “Upstream (GrapheneOS …)” in `releases.atom`.
 
+## 2026091900
+
+- **tag:** `cmets-2026091900`
+- **kind:** `upstream`
+- **upstream_tag:** `2026091900`
+
+### Upstream (GrapheneOS 2026091900)
+
+_See GrapheneOS release notes for `2026091900` (embedded in `releases.atom`)._
+
+## 2026091700
+
+- **tag:** `cmets-2026091700`
+- **kind:** `upstream`
+- **upstream_tag:** `2026091700`
+
+### Upstream (GrapheneOS 2026091700)
+
+_See GrapheneOS release notes for `2026091700` (embedded in `releases.atom`)._
+
+## 2026091000
+
+- **tag:** `cmets-2026091000`
+- **kind:** `upstream`
+- **upstream_tag:** `2026091000`
+
+### Upstream (GrapheneOS 2026091000)
+
+_See GrapheneOS release notes for `2026091000` (embedded in `releases.atom`)._
+
+## 2026090700
+
+- **tag:** `cmets-2026090700`
+- **kind:** `upstream`
+- **upstream_tag:** `2026090700`
+
+### Upstream (GrapheneOS 2026090700)
+
+_See GrapheneOS release notes for `2026090700` (embedded in `releases.atom`)._
+
+## 2026090500
+
+- **tag:** `cmets-2026090500`
+- **kind:** `upstream`
+- **upstream_tag:** `2026090500`
+
+### Upstream (GrapheneOS 2026090500)
+
+_See GrapheneOS release notes for `2026090500` (embedded in `releases.atom`)._
+
 ## 2026081700
 
 - **tag:** `cmets-2026081700`
